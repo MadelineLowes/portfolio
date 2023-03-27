@@ -26,7 +26,7 @@ Users can access this deployed application by clicking the following link: https
 
 ## Usage
 
-Users can view a demo video by clicking the following link: 
+Users can view a demo video by clicking the following link: https://drive.google.com/file/d/1zLkjGtMttyZcmIzJpgBdXIHSx9VhHT2I/view
 
 ## Credits
 
