@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/madelines-portfolio/static/css/main.fc4258c1.chunk.css",
+    "main.js": "/madelines-portfolio/static/js/main.9c5b6402.chunk.js",
+    "main.js.map": "/madelines-portfolio/static/js/main.9c5b6402.chunk.js.map",
+    "runtime-main.js": "/madelines-portfolio/static/js/runtime-main.45a2df91.js",
+    "runtime-main.js.map": "/madelines-portfolio/static/js/runtime-main.45a2df91.js.map",
+    "static/css/2.c56323af.chunk.css": "/madelines-portfolio/static/css/2.c56323af.chunk.css",
+    "static/js/2.520d069f.chunk.js": "/madelines-portfolio/static/js/2.520d069f.chunk.js",
+    "static/js/2.520d069f.chunk.js.map": "/madelines-portfolio/static/js/2.520d069f.chunk.js.map",
+    "static/js/3.36c01f7a.chunk.js": "/madelines-portfolio/static/js/3.36c01f7a.chunk.js",
+    "static/js/3.36c01f7a.chunk.js.map": "/madelines-portfolio/static/js/3.36c01f7a.chunk.js.map",
+    "index.html": "/madelines-portfolio/index.html",
+    "static/css/2.c56323af.chunk.css.map": "/madelines-portfolio/static/css/2.c56323af.chunk.css.map",
+    "static/css/main.fc4258c1.chunk.css.map": "/madelines-portfolio/static/css/main.fc4258c1.chunk.css.map",
+    "static/js/2.520d069f.chunk.js.LICENSE.txt": "/madelines-portfolio/static/js/2.520d069f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45a2df91.js",
+    "static/css/2.c56323af.chunk.css",
+    "static/js/2.520d069f.chunk.js",
+    "static/css/main.fc4258c1.chunk.css",
+    "static/js/main.9c5b6402.chunk.js"
+  ]
+}
