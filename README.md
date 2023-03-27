@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+<!-- ADD SCREENSHOTS & DEPLOYED APPLICATION LINK -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Madeline's Portfolio
 
-## Available Scripts
+[![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![github][github-shield]][github-url]
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+This application uses React to showcase my porfolio, which includes information about me, displays my projects, provides various ways to contact me, and displays my resume and skills. It is currently only a front-end application, though I have intentions of adding the back-end functionality in the near future.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Questions](#questions)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+none
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users can access this deployed application by clicking the following link:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Credits
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Big thanks to my tutor, TA's and instructor for their help with this project
+- https://create-react-app.dev/docs/deployment/#github-pages
+- https://www.geeksforgeeks.org/how-to-download-pdf-file-in-reactjs/
+- https://getbootstrap.com/docs/5.0/utilities/flex/#justify-content
+- https://mdbootstrap.com/how-to/bootstrap/footer-at-bottom/
+- https://www.rapidtables.com/web/color/RGB_Color.html
+- https://react.dev/learn/
+- https://react-bootstrap.github.io/components/carousel/
+- https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in-react
+- https://stackoverflow.com/questions/42297728/react-js-implement-menu-highlight-active-link
+- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is covered by MIT licensing.
+https://opensource.org/licenses/MIT
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Questions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Madeline Lowes:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- email: madeline.lowes@gmail.com
+- github profile: https://github.com/MadelineLowes
 
-## Learn More
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[contributors-shield]: https://img.shields.io/github/contributors/MadelineLowes/madelines-portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/MadelineLowes/madelines-portfolio/graphs/contributors
+[issues-shield]: https://img.shields.io/github/issues/MadelineLowes/madelines-portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/MadelineLowes/madelines-portfolio/issues
+[license-shield]: https://img.shields.io/github/license/MadelineLowes/madelines-portfolio.svg?style=for-the-badge
+[license-url]: https://github.com/MadelineLowes/madelines-portfolio/blob/main/LICENSE
+[github-shield]: https://img.shields.io/badge/-github-black.svg?style=for-the-badge&logo=github&colorB=555
+[github-url]: https://github.com/MadelineLowes/madelines-portfolio

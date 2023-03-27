@@ -1,0 +1,8 @@
+nav a {
+    text-decoration: none;
+    color: rgb(246, 246, 237);
+}
+
+nav a.active {
+    font-weight: bold;
+}

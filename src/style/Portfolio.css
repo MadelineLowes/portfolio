@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+    width: 50%;
+  }
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.container:hover img {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.repo, .deployed {
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid rgb(78, 115, 140);
+}
+
+.repo {
+    background-color: rgb(78, 115, 140);
+}
+
+.deployed {
+    background-color: rgb(191, 208, 212)
+}
+
+.repo a, .deployed a {
+    text-decoration: none;
+    color: white;
+}
+
+.repo a:hover, .deployed a:hover {
+    font-weight: bolder;
+    color: white;
+}
