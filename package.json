@@ -1,8 +1,8 @@
 {
-  "name": "react-portfolio",
-  "version": "0.1.0",
+  "name": "madelines-portfolio",
+  "version": "1.0.0",
   "private": true,
-  "homepage": "https://MadelineLowes.github.io/madelines-portfolio",
+  "homepage": "https://MadelineLowes.github.io/madelines-portfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,17 +44,4 @@
       "last 1 safari version"
     ]
   },
-  "description": "<!-- ADD SCREENSHOTS & DEPLOYED APPLICATION LINK -->",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MadelineLowes/madelines-portfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MadelineLowes/madelines-portfolio/issues"
-  }
 }
