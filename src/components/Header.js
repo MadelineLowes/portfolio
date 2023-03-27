@@ -1,6 +1,4 @@
 import React from 'react';
-import '../style/Header.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const styles = {
     background: {
@@ -9,7 +7,7 @@ const styles = {
     }
 };
 
-export default function Footer() {
+export default function Header() {
     return (
         <div style={styles.background}>
             <h1 class="text-center m-0 p-1">Madeline Lowes</h1>

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/Resume.css';
 
 const styles = {
     background: {
@@ -36,10 +35,8 @@ export default function Resume() {
             <h2 class="text-center p-5" style={styles.text}>Resume</h2>
             <div class="container pb-5 mb-5">
 
-
                 <button class="btn" onClick={onButtonClick}>
                     Download my resume
-                    {/* downloadable resume here */}
                 </button>
                 <div>
                     <div class="m-3 p-3">

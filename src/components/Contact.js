@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/Contact.css';
 
 const styles = {
     background: {

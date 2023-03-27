@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/About.css';
 
 const styles = {
     background: {

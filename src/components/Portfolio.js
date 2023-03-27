@@ -69,8 +69,7 @@ export default function Portfolio() {
                             <summary class="card-title">2nd Group Project</summary>
                             <p class="card-text">
                                 This application is a platform for past and present bootcamp students to
-                                connect,
-                                ask questions, mentor, and network with others going through the same
+                                connect, ask questions, mentor, and network with others going through the same
                                 experience.
                                 Unlike some other forums, even ones specifically for software development,
                                 this
@@ -89,7 +88,6 @@ export default function Portfolio() {
                                 class="card-img-top mx-auto" style={styles.image} alt="flowchart icon" />
                             <div class="d-flex justify-content-evenly w-100 middle">
                                 <button class="repo rounded p-3"><a href="https://github.com/MadelineLowes/organize-my-business">GitHub Repo</a></button>
-                                {/* <button class="deployed rounded p-3"><a href="https://sophack.github.io/firstGroupProject/" alt="Movie app link">Deployed App</a></button> */}
                             </div>
                         </div>
                         <details class="card-body" style={styles.card}>
@@ -116,7 +114,6 @@ export default function Portfolio() {
                                 class="card-img-top mx-auto" style={styles.image} alt="ecom icon" />
                             <div class="d-flex justify-content-evenly w-100 middle">
                                 <button class="repo rounded p-3"><a href="https://github.com/MadelineLowes/ecom-behind-the-screens">GitHub Repo</a></button>
-                                {/* <button class="deployed rounded p-3"><a href="https://sophack.github.io/firstGroupProject/" alt="Movie app link">Deployed App</a></button> */}
                             </div>
                         </div>
                         <details class="card-body" style={styles.card}>
@@ -145,7 +142,6 @@ export default function Portfolio() {
                                 class="card-img-top mx-auto" style={styles.image} alt="readme icon" />
                             <div class="d-flex justify-content-evenly w-100 middle">
                                 <button class="repo rounded p-3"><a href="https://github.com/MadelineLowes/madelines-readme-creator">GitHub Repo</a></button>
-                                {/* <button class="deployed rounded p-3"><a href="https://github.com/MadelineLowes/madelines-readme-creator"alt="Movie app link">Deployed App</a></button> */}
                             </div>
                         </div>
                         <details class="card-body" style={styles.card}>

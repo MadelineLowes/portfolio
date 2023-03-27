@@ -22,11 +22,11 @@ This application uses React to showcase my porfolio, which includes information 
 
 ## Installation
 
-none
+Users can access this deployed application by clicking the following link: https://madelinelowes.github.io/madelines-portfolio/
 
 ## Usage
 
-Users can access this deployed application by clicking the following link:
+Users can view a demo video by clicking the following link: 
 
 ## Credits
 
