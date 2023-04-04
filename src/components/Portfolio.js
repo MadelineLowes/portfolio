@@ -159,6 +159,26 @@ export default function Portfolio() {
                             <img src={'blog.png'}
                                 class="card-img-top mx-auto" style={styles.image} alt="blog icon" />
                             <div class="d-flex justify-content-evenly w-100 middle">
+                                <button class="repo rounded p-3"><a href="https://github.com/MadelineLowes/partner-for-good">GitHub Repo</a></button>
+                                <button class="deployed rounded p-3"><a href="https://partner-for-good1.herokuapp.com/"
+                                    alt="Movie app link">Deployed App</a></button>
+                            </div>
+                        </div>
+                        <details class="card-body" style={styles.card}>
+                            <summary class="card-title">3rd Group Project</summary>
+                            <p class="card-text">
+                            Partner for Good is a platform that allows charities, not-for-profits, and non-profit organizations to create profiles that demonstrate how they are contributing to a social or environmental good through creating an organizational profile. Companies interested in bolstering their ESG involvement and reporting can visit the Partner for Good platform to find causes that fulfill their particular ESG goals, while maintaining comfort that each cause listed on the platform has been vetted and is a credible organization.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+
+                {/* <div class="col-lg-3 col-md-5 col-s-6 m-3">
+                    <div class="card">
+                        <div class="container m-0 p-0">
+                            <img src={'blog.png'}
+                                class="card-img-top mx-auto" style={styles.image} alt="blog icon" />
+                            <div class="d-flex justify-content-evenly w-100 middle">
                                 <button class="repo rounded p-3"><a href="https://github.com/MadelineLowes/mvc-tech-blog">GitHub Repo</a></button>
                                 <button class="deployed rounded p-3"><a href="https://sophack.github.io/firstGroupProject/"
                                     alt="Movie app link">Deployed App</a></button>
@@ -171,7 +191,7 @@ export default function Portfolio() {
                             </p>
                         </details>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
