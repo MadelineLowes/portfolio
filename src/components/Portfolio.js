@@ -84,6 +84,26 @@ export default function Portfolio() {
                 <div class="col-lg-3 col-md-5 col-s-6 m-3">
                     <div class="card">
                         <div class="container m-0 p-0">
+                            <img src={'blog.png'}
+                                class="card-img-top mx-auto" style={styles.image} alt="blog icon" />
+                            <div class="d-flex justify-content-evenly w-100 middle">
+                                <button class="repo rounded p-3"><a href="https://github.com/MadelineLowes/partner-for-good">GitHub Repo</a></button>
+                                <button class="deployed rounded p-3"><a href="https://partner4good.herokuapp.com/"
+                                    alt="Movie app link">Deployed App</a></button>
+                            </div>
+                        </div>
+                        <details class="card-body" style={styles.card}>
+                            <summary class="card-title">3rd Group Project</summary>
+                            <p class="card-text">
+                            Partner for Good is a platform that allows charities, not-for-profits, and non-profit organizations to create profiles that demonstrate how they are contributing to a social or environmental good through creating an organizational profile. Companies interested in bolstering their ESG involvement and reporting can visit the Partner for Good platform to find causes that fulfill their particular ESG goals, while maintaining comfort that each cause listed on the platform has been vetted and is a credible organization.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-5 col-s-6 m-3">
+                    <div class="card">
+                        <div class="container m-0 p-0">
                             <img src={'bizorg.png'}
                                 class="card-img-top mx-auto" style={styles.image} alt="flowchart icon" />
                             <div class="d-flex justify-content-evenly w-100 middle">
@@ -148,26 +168,6 @@ export default function Portfolio() {
                             <summary class="card-title">ReadMe Creator</summary>
                             <p class="card-text">
                                 This is an application that runs in the terminal using Node.js to allow users to create a high quality ReadMe file for their own application more easily and efficiently. The user is prompted for information about their application like their project title, description, installation instructions, etc. and once the user has completed their responses, the ReadMe file is created and populated with their inputted project information.
-                            </p>
-                        </details>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-5 col-s-6 m-3">
-                    <div class="card">
-                        <div class="container m-0 p-0">
-                            <img src={'blog.png'}
-                                class="card-img-top mx-auto" style={styles.image} alt="blog icon" />
-                            <div class="d-flex justify-content-evenly w-100 middle">
-                                <button class="repo rounded p-3"><a href="https://github.com/MadelineLowes/partner-for-good">GitHub Repo</a></button>
-                                <button class="deployed rounded p-3"><a href="https://partner-for-good1.herokuapp.com/"
-                                    alt="Movie app link">Deployed App</a></button>
-                            </div>
-                        </div>
-                        <details class="card-body" style={styles.card}>
-                            <summary class="card-title">3rd Group Project</summary>
-                            <p class="card-text">
-                            Partner for Good is a platform that allows charities, not-for-profits, and non-profit organizations to create profiles that demonstrate how they are contributing to a social or environmental good through creating an organizational profile. Companies interested in bolstering their ESG involvement and reporting can visit the Partner for Good platform to find causes that fulfill their particular ESG goals, while maintaining comfort that each cause listed on the platform has been vetted and is a credible organization.
                             </p>
                         </details>
                     </div>
