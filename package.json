@@ -1,8 +1,8 @@
 {
-  "name": "madelines-portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://madelinelowes.github.io/madelines-portfolio/",
+  "homepage": "https://madelinelowes.github.io/portfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
