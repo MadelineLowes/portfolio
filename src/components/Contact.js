@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const styles = {
     background: {
@@ -20,12 +20,36 @@ const styles = {
 };
 
 export default function Contact() {
+    // const ContactForm = () => {
+        const [status, setStatus] = useState("Submit");
+        const handleSubmit = async (e) => {
+          e.preventDefault();
+          setStatus("Sending...");
+          const { name, email, subject, message } = e.target.elements;
+          let details = {
+            name: name.value,
+            email: email.value,
+            subject: subject.value,
+            message: message.value,
+          };
+          let response = await fetch("http://localhost:5000/contact", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json;charset=utf-8",
+            },
+            body: JSON.stringify(details),
+          });
+          setStatus("Submit");
+          let result = await response.json();
+          alert(result.status);
+        };
+
     return (
         <div class="h-100" style={styles.background}>
             <h2 class="p-5" style={styles.text}>Contact Me</h2>
             <div class="d-lg-flex px-3">
                 <card class="card col-lg-6 m-auto" style={styles.form}>
-                    <form class="form-group p-3 needs-validation" novalidate autoComplete='on'>
+                    <form class="form-group p-3 needs-validation" action="/send_email" method="post" novalidate autoComplete='on' onSubmit={handleSubmit}>
                         <div class="mb-3">
                             <input type="text" class="form-control" style={styles.input} id="name" placeholder="Name" required />
                             <div class="invalid-feedback">
@@ -52,7 +76,7 @@ export default function Contact() {
                             </div>
                         </div>
                         <div class="text-center mt-3">
-                            <button type="submit" class="btn" id="email-btn" style={styles.button}>Send email</button>
+                            <button type="submit" class="btn" id="email-btn" style={styles.button}>{status}</button>
                         </div>
                     </form>
                 </card>

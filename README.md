@@ -35,11 +35,13 @@ Users can view a demo video by clicking the following link: https://drive.google
 - https://www.geeksforgeeks.org/how-to-download-pdf-file-in-reactjs/
 - https://getbootstrap.com/docs/5.0/utilities/flex/#justify-content
 - https://mdbootstrap.com/how-to/bootstrap/footer-at-bottom/
+- https://nodemailer.com/about/
 - https://www.rapidtables.com/web/color/RGB_Color.html
 - https://react.dev/learn/
 - https://react-bootstrap.github.io/components/carousel/
 - https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in-react
 - https://stackoverflow.com/questions/42297728/react-js-implement-menu-highlight-active-link
+- https://w3collective.com/react-contact-form/
 - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
 
 ## License
