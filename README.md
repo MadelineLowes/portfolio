@@ -43,6 +43,7 @@ Users can view a demo video by clicking the following link: https://drive.google
 - https://stackoverflow.com/questions/42297728/react-js-implement-menu-highlight-active-link
 - https://w3collective.com/react-contact-form/
 - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
+- https://www.youtube.com/watch?v=30VeUWxZjS8
 
 ## License
 

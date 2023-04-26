@@ -49,7 +49,7 @@ export default function Contact() {
             <h2 class="p-5" style={styles.text}>Contact Me</h2>
             <div class="d-lg-flex px-3">
                 <card class="card col-lg-6 m-auto" style={styles.form}>
-                    <form class="form-group p-3 needs-validation" action="/send_email" method="post" novalidate autoComplete='on' onSubmit={handleSubmit}>
+                    <form class="form-group p-3 needs-validation" novalidate autoComplete='on' onSubmit={handleSubmit}>
                         <div class="mb-3">
                             <input type="text" class="form-control" style={styles.input} id="name" placeholder="Name" required />
                             <div class="invalid-feedback">
