@@ -34,7 +34,7 @@ export default function Portfolio() {
                             <img src={'sailboat-light.png'}
                                 className="card-img-top mx-auto" style={styles.image} alt="movie logo" />
                             <div className="d-flex justify-content-evenly w-100 middle">
-                                <button className="repo rounded p-3"><a href="https://github.com/Sophack/ShowBoat ">GitHub Repo</a></button>
+                                <button className="repo rounded p-3"><a href="https://github.com/Sophack/ShowBoat">GitHub Repo</a></button>
                                 <button className="deployed rounded p-3"><a href="https://sophack.github.io/firstGroupProject/"
                                     alt="Movie app link">Deployed App</a></button>
                             </div>
