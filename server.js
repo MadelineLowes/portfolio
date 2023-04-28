@@ -1,52 +1,50 @@
-const express = require('express');
-const path = require('path');
-const app = express();
+const express = require("express");
+const router = express.Router();
+const cors = require("cors");
+const nodemailer = require("nodemailer");
 require('dotenv').config();
 
-const nodemailer = require('nodemailer');
-
-const PORT = process.env.PORT || 5000;
-
-// Middleware
-// app.use(express.static(path.join(__dirname, './build/static')))
-app.use(express.static(path.join(__dirname + 'public')))
+const app = express();
+app.use(cors());
 app.use(express.json());
+app.use("/", router);
+app.listen(5000, () => console.log("Server Running"));
 
-
-
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/contactform.html');
-    // res.send('Hello!')
-})
-
-app.post('/', (req, res) => {
-    const transporter = nodemailer.createTransport({
-        service:  'gmail',
-        auth: {
-            user: process.env.USER_EMAIL,
-            pass: process.env.PASSWORD
-        }
-    })
-
-    const mailOptions = {
-        from: req.body.email,
-        to: process.env.USER_EMAIL,
-        subject: `Message from ${req.body.email}: ${req.body.subject}`,
-        text: req.body.message
+const contactEmail = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: process.env.USER_EMAIL,
+        pass: process.env.PASSWORD
+    },
+  });
+  
+  contactEmail.verify((error) => {
+    if (error) {
+      console.log(error);
+    } else {
+      console.log("Ready to Send");
     }
+  });
 
-    transporter.sendMail(mailOptions, (err, info) => {
-        if (err) {
-            console.log(err);
-            res.send('error');
-        } else {
-            console.log('email sent: ' )
-            console.log(info.response)
-            res.send('success')
-        }
-    })
-})
-
-app.listen(PORT, () => {
-    console.log(`Server listening on ${PORT}`)
-})
+  router.post("/contact", (req, res) => {
+    const name = req.body.name;
+    const email = req.body.email;
+    const subject = req.body.subject;
+    const message = req.body.message; 
+    const mail = {
+      from: name,
+      to: process.env.USER_EMAIL,
+      subject: `Message from ${name}: ${subject}`,
+      html: `<p>Name: ${name}</p>
+             <p>Email: ${email}</p>
+             <p>Subject: ${subject}</p>
+             <p>Message: ${message}</p>`,
+    };
+    contactEmail.sendMail(mail, (error) => {
+      if (error) {
+        res.json({ status: "ERROR" });
+      } else {
+        res.json({ status: "Message Sent" });
+      }
+    });
+  });

@@ -11,8 +11,8 @@ const styles = {
 
 export default function Nav() {
     return (
-        <nav class="navbar navbar-expand" style={styles.background}>
-            <div class="container-fluid d-flex justify-content-evenly">
+        <nav className="navbar navbar-expand" style={styles.background}>
+            <div className="container-fluid d-flex justify-content-evenly">
                 <NavLink to='/'> About Me</NavLink>
                 <NavLink to='/portfolio'> Portfolio</NavLink>
                 <NavLink to='/contact'> Contact</NavLink>

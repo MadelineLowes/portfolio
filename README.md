@@ -34,6 +34,7 @@ Users can view a demo video by clicking the following link: https://drive.google
 - https://create-react-app.dev/docs/deployment/#github-pages
 - https://www.geeksforgeeks.org/how-to-download-pdf-file-in-reactjs/
 - https://getbootstrap.com/docs/5.0/utilities/flex/#justify-content
+- https://github.com/nodemailer/nodemailer
 - https://mdbootstrap.com/how-to/bootstrap/footer-at-bottom/
 - https://nodemailer.com/about/
 - https://www.rapidtables.com/web/color/RGB_Color.html

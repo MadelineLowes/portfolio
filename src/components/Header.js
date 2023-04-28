@@ -10,7 +10,7 @@ const styles = {
 export default function Header() {
     return (
         <div style={styles.background}>
-            <h1 class="text-center m-0 p-1">Madeline Lowes</h1>
+            <h1 className="text-center m-0 p-1">Madeline Lowes</h1>
             
         </div>
     )

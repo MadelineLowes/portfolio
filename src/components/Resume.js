@@ -31,37 +31,37 @@ export default function Resume() {
     }
     
     return (
-        <div class="m-0 p-1 h-100" style={styles.background}>
-            <h2 class="text-center p-5" style={styles.text}>Resume</h2>
-            <div class="container pb-5 mb-5">
+        <div className="m-0 p-1 h-100" style={styles.background}>
+            <h2 className="text-center p-5" style={styles.text}>Resume</h2>
+            <div className="container pb-5 mb-5">
 
-                <button class="btn" onClick={onButtonClick}>
+                <button className="btn" onClick={onButtonClick}>
                     Download my resume
                 </button>
                 <div>
-                    <div class="m-3 p-3">
+                    <div className="m-3 p-3">
                         <h3>Front-end Proficiencies</h3>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item" style={styles.list}>Bootstrap</li>
-                            <li class="list-group-item" style={styles.list}>CSS</li>
-                            <li class="list-group-item" style={styles.list}>HTML</li>
-                            <li class="list-group-item" style={styles.list}>JavaScript</li>
-                            <li class="list-group-item" style={styles.list}>jQuery</li>
-                            <li class="list-group-item" style={styles.list}>React</li>
-                            <li class="list-group-item" style={styles.list}>responsive design</li>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item" style={styles.list}>Bootstrap</li>
+                            <li className="list-group-item" style={styles.list}>CSS</li>
+                            <li className="list-group-item" style={styles.list}>HTML</li>
+                            <li className="list-group-item" style={styles.list}>JavaScript</li>
+                            <li className="list-group-item" style={styles.list}>jQuery</li>
+                            <li className="list-group-item" style={styles.list}>React</li>
+                            <li className="list-group-item" style={styles.list}>responsive design</li>
                         </ul>
                     </div>
 
-                    <div class="m-3 p-3">
+                    <div className="m-3 p-3">
                         <h3>Back-end Proficiencies</h3>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item" style={styles.list}>APIs</li>
-                            <li class="list-group-item" style={styles.list}>Express</li>
-                            <li class="list-group-item" style={styles.list}>GraphQL</li>
-                            <li class="list-group-item" style={styles.list}>MongoDB, Mongoose</li>
-                            <li class="list-group-item" style={styles.list}>MySQL, Sequelize</li>
-                            <li class="list-group-item" style={styles.list}>Node</li>
-                            <li class="list-group-item" style={styles.list}>REST</li>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item" style={styles.list}>APIs</li>
+                            <li className="list-group-item" style={styles.list}>Express</li>
+                            <li className="list-group-item" style={styles.list}>GraphQL</li>
+                            <li className="list-group-item" style={styles.list}>MongoDB, Mongoose</li>
+                            <li className="list-group-item" style={styles.list}>MySQL, Sequelize</li>
+                            <li className="list-group-item" style={styles.list}>Node</li>
+                            <li className="list-group-item" style={styles.list}>REST</li>
                         </ul>
                     </div>
                 </div>

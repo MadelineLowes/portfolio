@@ -12,17 +12,17 @@ const styles = {
 
 export default function Footer() {
     return (
-        <div class="fixed-bottom" style={styles.background}>
-            <h4 class="text-center mb-0 mt-4">Thanks for checking out my webpage!</h4>
-            <nav class="d-flex justify-content-center">
-                <address class=" m-3">
-                    <a href="https://github.com/MadelineLowes" class="text-decoration-none" style={styles.links}>GitHub</a>
+        <div className="fixed-bottom" style={styles.background}>
+            <h4 className="text-center mb-0 mt-4">Thanks for checking out my webpage!</h4>
+            <nav className="d-flex justify-content-center">
+                <address className="m-3">
+                    <a href="https://github.com/MadelineLowes" className="text-decoration-none" style={styles.links}>GitHub</a>
                 </address>
-                <address class="m-3">
-                    <a href="https://www.linkedin.com/in/madeline-lowes-b52632152/" class="text-decoration-none" style={styles.links}>LinkedIn</a>
+                <address className="m-3">
+                    <a href="https://www.linkedin.com/in/madeline-lowes-b52632152/" className="text-decoration-none" style={styles.links}>LinkedIn</a>
                 </address>
-                <address class="m-3">
-                    <a href="https://stackoverflow.com/users/21433922/madeline-lowes?tab=profile" class="text-decoration-none" style={styles.links}>stackoverflow</a>
+                <address className="m-3">
+                    <a href="https://stackoverflow.com/users/21433922/madeline-lowes?tab=profile" className="text-decoration-none" style={styles.links}>stackoverflow</a>
                 </address>
             </nav>
         </div>

@@ -11,8 +11,8 @@ import Resume from './components/Resume';
 
 export default function App() {
     return (
-        <div class="App" >
-            <div class="vh-100">
+        <div className="App" >
+            <div className="vh-100">
                 <Header />
                 <Nav />
                     <Routes>
