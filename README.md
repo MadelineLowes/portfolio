@@ -32,6 +32,7 @@ Users can view a demo video by clicking the following link: https://drive.google
 
 - Big thanks to my tutor, TA's and instructor for their help with this project
 - https://create-react-app.dev/docs/deployment/#github-pages
+- https://www.flaticon.com/free-icons/
 - https://www.geeksforgeeks.org/how-to-download-pdf-file-in-reactjs/
 - https://getbootstrap.com/docs/5.0/utilities/flex/#justify-content
 - https://github.com/nodemailer/nodemailer

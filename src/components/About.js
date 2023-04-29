@@ -1,5 +1,7 @@
 import React from 'react';
 
+import p4 from './../assets/4.png'
+
 const styles = {
     background: {
         background: 'rgb(246, 232, 226)',
@@ -26,7 +28,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="col-md-4 col-lg-3 col-xl-2 mx-3 px-3">
-                    <img className="img-fluid rounded-circle" src={'4.png'} alt="Madeline"></img>
+                    <img className="img-fluid rounded-circle" src={p4} alt="Madeline"></img>
                 </div>
             </div>
             <div className="container pb-5 mb-5">

@@ -14,30 +14,27 @@ const styles = {
 };
 
 export default function Resume() {
-    // Function will execute on click of button
-    const onButtonClick = () => {
-        // using Java Script method to get PDF file
-        fetch('resume.pdf').then(response => {
-            response.blob().then(blob => {
-                // Creating new object of PDF file
-                const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'resume.pdf';
-                alink.click();
-            })
-        })
+
+    const downloadFileAtURL=(url)=>{
+        const aTag = document.createElement('a');
+        aTag.href = url;
+        aTag.setAttribute('download', 'madelines-resume.pdf');
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
     }
-    
+
+    const RESUME_URL = 'http://localhost:3000/madelines-resume.pdf';
+
     return (
         <div className="m-0 p-1 h-100" style={styles.background}>
             <h2 className="text-center p-5" style={styles.text}>Resume</h2>
             <div className="container pb-5 mb-5">
-
-                <button className="btn" onClick={onButtonClick}>
-                    Download my resume
-                </button>
+                {/* <a href="madelines-resume.pdf" download="madelines-resume.pdf"> */}
+                    <button className="btn" onClick={()=>{downloadFileAtURL(RESUME_URL)}}>
+                        Download my resume
+                    </button>
+                {/* </a> */}
                 <div>
                     <div className="m-3 p-3">
                         <h3>Front-end Proficiencies</h3>

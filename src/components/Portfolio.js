@@ -1,6 +1,15 @@
 import React from 'react';
 import '../style/Portfolio.css';
 
+import boat from './../assets/boat.png'
+import bflogo from './../assets/bflogo.png'
+import bizorg from './../assets/bizorg.png'
+import ecom from './../assets/ecom.png'
+// import blog from './../assets/blog.png'
+import charity from './../assets/charity.png'
+import docs from './../assets/docs.png'
+
+
 const styles = {
     background: {
         background: 'rgb(191, 208, 212)',
@@ -31,7 +40,7 @@ export default function Portfolio() {
                 <div className="col-lg-3 col-md-5 col-s-6 m-3">
                     <div className="card">
                         <div className="container m-0 p-0">
-                            <img src={'sailboat-light.png'}
+                            <img src={boat}
                                 className="card-img-top mx-auto" style={styles.image} alt="movie logo" />
                             <div className="d-flex justify-content-evenly w-100 middle">
                                 <button className="repo rounded p-3"><a href="https://github.com/Sophack/ShowBoat">GitHub Repo</a></button>
@@ -58,7 +67,7 @@ export default function Portfolio() {
                 <div className="col-lg-3 col-md-5 col-s-6 m-3">
                     <div className="card">
                         <div className="container m-0 p-0">
-                            <img src={'bflogo.png'} className="card-img-top w-100" alt="bootcamp forum logo" />
+                            <img src={bflogo} className="card-img-top w-100" alt="bootcamp forum logo" />
                             <div className="d-flex justify-content-evenly w-100 middle">
                                 <button className="repo rounded p-3"><a href="https://github.com/lavanyavirushan/p2-bootcamp-forum">GitHub Repo</a></button>
                                 <button className="deployed rounded p-3"><a href="https://p2-bootcamp-forum.herokuapp.com/"
@@ -84,7 +93,7 @@ export default function Portfolio() {
                 <div className="col-lg-3 col-md-5 col-s-6 m-3">
                     <div className="card">
                         <div className="container m-0 p-0">
-                            <img src={'blog.png'}
+                            <img src={charity}
                                 className="card-img-top mx-auto" style={styles.image} alt="blog icon" />
                             <div className="d-flex justify-content-evenly w-100 middle">
                                 <button className="repo rounded p-3"><a href="https://github.com/MadelineLowes/partner-for-good">GitHub Repo</a></button>
@@ -104,10 +113,10 @@ export default function Portfolio() {
                 <div className="col-lg-3 col-md-5 col-s-6 m-3">
                     <div className="card">
                         <div className="container m-0 p-0">
-                            <img src={'bizorg.png'}
+                            <img src={bizorg}
                                 className="card-img-top mx-auto" style={styles.image} alt="flowchart icon" />
                             <div className="d-flex justify-content-evenly w-100 middle">
-                                <button className="repo rounded p-3"><a href="https://github.com/MadelineLowes/organize-my-business">GitHub Repo</a></button>
+                                <button className="repo rounded p-3"><a href="https://github.com/MadelineLowes/business-org">GitHub Repo</a></button>
                             </div>
                         </div>
                         <details className="card-body" style={styles.card}>
@@ -121,7 +130,7 @@ export default function Portfolio() {
                                 employers/business
                                 owners to be able to organize & store their company's departments, roles,
                                 and
-                                employees, to be better able to plan for & manage their business.
+                                employees, to be better able to plan for & manage their business. This data is populated in an automatically generate HTML file, which can be viewed in the browser.
                             </p>
                         </details>
                     </div>
@@ -130,7 +139,7 @@ export default function Portfolio() {
                 <div className="col-lg-3 col-md-5 col-s-6 m-3">
                     <div className="card">
                         <div className="container m-0 p-0">
-                            <img src={'ecom.png'}
+                            <img src={ecom}
                                 className="card-img-top mx-auto" style={styles.image} alt="ecom icon" />
                             <div className="d-flex justify-content-evenly w-100 middle">
                                 <button className="repo rounded p-3"><a href="https://github.com/MadelineLowes/ecom-behind-the-screens">GitHub Repo</a></button>
@@ -158,7 +167,7 @@ export default function Portfolio() {
                 <div className="col-lg-3 col-md-5 col-s-6 m-3">
                     <div className="card">
                         <div className="container m-0 p-0">
-                            <img src={'readme.png'}
+                            <img src={docs}
                                 className="card-img-top mx-auto" style={styles.image} alt="readme icon" />
                             <div className="d-flex justify-content-evenly w-100 middle">
                                 <button className="repo rounded p-3"><a href="https://github.com/MadelineLowes/madelines-readme-creator">GitHub Repo</a></button>
