@@ -24,7 +24,7 @@ export default function About() {
                     <div className="container my-3" style={styles.text}>
                         <h3>Junior Full Stack Developer</h3>
                         <h4>Graduated from Full Stack Bootcamp April 2023</h4>
-                        <p>elevator pitch will go here</p>
+                        {/* <p>elevator pitch will go here</p> */}
                     </div>
                 </div>
                 <div className="col-md-4 col-lg-3 col-xl-2 mx-3 px-3">

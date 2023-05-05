@@ -14,27 +14,11 @@ const styles = {
 };
 
 export default function Resume() {
-
-    const downloadFileAtURL=(url)=>{
-        const aTag = document.createElement('a');
-        aTag.href = url;
-        aTag.setAttribute('download', 'madelines-resume.pdf');
-        document.body.appendChild(aTag);
-        aTag.click();
-        aTag.remove();
-    }
-
-    const RESUME_URL = 'http://localhost:3000/madelines-resume.pdf';
-
     return (
         <div className="m-0 p-1 h-100" style={styles.background}>
             <h2 className="text-center p-5" style={styles.text}>Resume</h2>
             <div className="container pb-5 mb-5">
-                {/* <a href="madelines-resume.pdf" download="madelines-resume.pdf"> */}
-                    <button className="btn" onClick={()=>{downloadFileAtURL(RESUME_URL)}}>
-                        Download my resume
-                    </button>
-                {/* </a> */}
+                <a href="https://drive.google.com/file/d/1Zd8GF8Heux3HuDFARY3xMcT1RunR1Hjx/view?usp=sharing">View My Resume</a>
                 <div>
                     <div className="m-3 p-3">
                         <h3>Front-end Proficiencies</h3>
