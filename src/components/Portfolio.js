@@ -43,15 +43,15 @@ export default function Portfolio() {
                             <img src={boat}
                                 className="card-img-top mx-auto" style={styles.image} alt="movie logo" />
                             <div className="d-flex justify-content-evenly w-100 middle">
-                                <button className="repo rounded p-3"><a href="https://github.com/Sophack/ShowBoat">GitHub Repo</a></button>
-                                <button className="deployed rounded p-3"><a href="https://sophack.github.io/firstGroupProject/"
+                                <button className="repo rounded p-3"><a href="https://github.com/MadelineLowes/showboat">GitHub Repo</a></button>
+                                <button className="deployed rounded p-3"><a href="https://madelinelowes.github.io/showboat/"
                                     alt="Movie app link">Deployed App</a></button>
                             </div>
                         </div>
                         <details className="card-body" style={styles.card}>
                             <summary className="card-title">1st Group Project</summary>
                             <p className="card-text">
-                                My group created an application that lets users know which streaming
+                                My group partner and I created an application that lets users know which streaming
                                 platforms their searched movies and shows are on. There are direct links to
                                 the streaming platforms from the results page, as well as information about
                                 the searched movie/show, suggested similar titles, and the ability to store

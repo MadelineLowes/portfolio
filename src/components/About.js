@@ -22,8 +22,8 @@ export default function About() {
             <div className="d-sm-flex justify-content-evenly align-items-center">
                 <div className="col-sm-6 col-md-6">
                     <div className="container my-3" style={styles.text}>
-                        <h3>Full Stack Coding Bootcamp Student</h3>
-                        <h4>Graduating April 2023</h4>
+                        <h3>Junior Full Stack Developer</h3>
+                        <h4>Graduated from Full Stack Bootcamp April 2023</h4>
                         <p>elevator pitch will go here</p>
                     </div>
                 </div>
@@ -32,9 +32,10 @@ export default function About() {
                 </div>
             </div>
             <div className="container pb-5 mb-5">
-            <div className="pt-2 px-1 my-5" style={styles.border}>
-                <p>As a recent graduate of a full-stack web development bootcamp, I have gained experience building web applications using a variety of technologies. My portfolio showcases projects that demonstrate my proficiency in HTML, CSS, JavaScript, React, Node.js, and SQL. I am particularly proud of my work on [specific project names], which highlight my ability to work both independently and as part of a team. I am eager to continue learning and growing as a developer, and I am excited about the opportunities that lie ahead.</p>
-            </div>
+                <div className="pt-2 px-1 my-5" style={styles.border}>
+                    <p>As a recent graduate of a full-stack web development bootcamp, I have gained experience building web applications using a variety of technologies. My portfolio showcases projects that demonstrate my proficiency in HTML, CSS, JavaScript, React, Node.js, and SQL and highlight my ability to work both independently and as part of a team. I am eager to continue learning and growing as a developer, and I am excited about the opportunities that lie ahead.</p>
+                </div>
+                {/* . I am particularly proud of my work on [specific project names], which  */}
             </div>
         </div>
     )
