@@ -171,6 +171,7 @@ export default function Portfolio() {
                                 className="card-img-top mx-auto" style={styles.image} alt="readme icon" />
                             <div className="d-flex justify-content-evenly w-100 middle">
                                 <button className="repo rounded p-3"><a href="https://github.com/MadelineLowes/madelines-readme-creator">GitHub Repo</a></button>
+                                {/* <button className="deployed rounded p-3"><a href=" https://murmuring-depths-40931.herokuapp.com/" alt="Blog app link">Deployed App</a></button> */}
                             </div>
                         </div>
                         <details className="card-body" style={styles.card}>
