@@ -70,7 +70,7 @@ export default function Portfolio() {
                             <img src={bflogo} className="card-img-top w-100" alt="bootcamp forum logo" />
                             <div className="d-flex justify-content-evenly w-100 middle">
                                 <button className="repo rounded p-3"><a href="https://github.com/lavanyavirushan/p2-bootcamp-forum">GitHub Repo</a></button>
-                                <button className="deployed rounded p-3"><a href="https://p2-bootcamp-forum.herokuapp.com/"
+                                <button className="deployed rounded p-3"><a href="https://mads-bootcamp-forum.herokuapp.com/"
                                     alt="Movie app link">Deployed App</a></button>
                             </div>
                         </div>
