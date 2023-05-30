@@ -92,7 +92,7 @@ export default function Contact() {
                         2N5 <br /> Canada
                     </address>
                     <address className=" m-3">
-                        <a href="mailto:madeline.e.lowes@gmail.com" className="text-decoration-none" style={styles.text}>madeline.e.lowes@gmail.com</a>
+                        <a href="mailto:madeline.lowes@gmail.com" className="text-decoration-none" style={styles.text}>madeline.e.lowes@gmail.com</a>
                     </address>
 
                 </nav>
